@@ -1,6 +1,6 @@
 <h1>Todolist</h1>
 
-<p>une Todolist simple</p>
+<p>une Todolist simple fait en JS</p>
 
 <h4>fonctionaliter :</h4>
 <ul>
