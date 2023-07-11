@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>todolist</title>
 </head>
 <body>
-    
+    <form id="newTodoForm" class="ajout">
+        <input type="text" placeholder="acheter des patates" name="todo">
+        <input id="add" type="submit" value="ajouter">
+    </form>
+    <div class="chose">
+        <button id="tous">Tous</button>
+        <button id="aFaire">à faire</button>
+        <button id="fait">fait</button>
+    </div>
+    <div id="todo-container" class="todo-container">
+    </div>
+
+    <script src="/app.js"></script>
 </body>
 </html>
