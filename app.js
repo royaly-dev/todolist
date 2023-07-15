@@ -7,7 +7,7 @@ const fait = document.querySelector('#fait')
 const newTodoAdd = document.querySelector('form')
 
 /*
-system de suprétion
+Systeme de suprétion ( j'ai pas trouver le mot )
 */
 
   function deleteTodo() {
@@ -23,7 +23,7 @@ system de suprétion
     })}
 
 /*
-system t'ajout
+Systeme D'ajout
 */
 
 newTodoAdd.addEventListener('submit', (e) => {
@@ -52,7 +52,7 @@ function addNewTodo(title) {
 }
 
 /*
-system de tri de la todo
+Systeme de trie 
 */
 function removeChildren() {
     return new Promise((resolve) => {
@@ -62,6 +62,10 @@ function removeChildren() {
       resolve();
     });
   }
+
+/*
+Crary ta eu la flm de continuer de commenter
+*/
 
 tous.addEventListener('click', (e) => {
     removeChildren()
