@@ -4,7 +4,7 @@
     This is an old todo-list do in vanilla JavaScrpit
   </p>
   <p align="center">
-    To vue my new todo-list app <a href="todo.royaly.dev">click here</a>
+    To vue my new todo-list app <a href="https://todo.royaly.dev">click here</a>
   </p>
 </div>
 
